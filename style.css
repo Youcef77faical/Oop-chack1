@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+body{
+    font-family: Agdasima;
+    margin: 0;
+    padding: 0;
+    background-color: floralwhite;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1,h2{
+    text-align: center;
+}
+.products ,.cart{
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow:0 2px 5px ;
+}
+.product{
+    margin: 10px 0;
+}
+button{
+    padding:10px 15px ;
+    color: rgb(163, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+button:hover{
+    background: rgba(0, 0, 255, 0.4);
+}
+#cart-items{
+list-style: none;
+padding: 0;
+}
+#cart-items li{
+    margin: 5px 0;
+}
